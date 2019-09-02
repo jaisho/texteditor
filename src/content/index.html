@@ -33,6 +33,18 @@
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
+    <main class="editor">
+      <h1 class="editor__title">Simple LocalStorage notes editor</h1>
+      <div class="editor__wrapper">
+        <textarea name="localStorage-editor" id="textarea" maxlength="1000" placeholder="Write Your note here!" class="editor__textArea editor__textArea--js"></textarea>
+      </div>
+      <div class="editor__buttons">
+        <button class="editor__button editor__button--load editor__button--load-js">Load</button>
+        <button class="editor__button editor__button--save editor__button--save-js">Save</button>
+        <button class="editor__button editor__button--delete editor__button--delete-js">Delete</button>
+      </div>
+    </main>
+
     <script src="js/main.js"></script>
   </body>
 </html>
