@@ -1,9 +1,13 @@
-# wtf-gulp-starter
+# TextEditor based on localStorage
+Simple TextEditor that let users save notes and load them even after closing the tab or reloading the browser. 
 
-`npm install -g gulp-cli`
+# Used technlogies
+HTML5, CSS3, SASS, JavaScript, Gulp
 
-`npm install`
+# Initialize project with gulp (with node.js already installed)
+- `npm install -g gulp-cli`
+- clone the repo to chosen folder
+- `npm install`
+- `gulp` - starts *task runner*
 
-`gulp`
-
-To publish your page using github pages use `npm run deploy`
+## Check live version of my site at: https://jaisho.github.io/texteditor/
